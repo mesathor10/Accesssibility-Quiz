@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><img id="logo" src="https://img.icons8.com/glyph-neue/344/naruto.png">
+    <h1>HTML/CSS QUIZ</h1>
+    <nav>
+        <ul>
+            <li>INFO</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </nav>
+    
+    </header>
+    <main>
+        <section role="region">
+        <div class="Student info"><h2>Student Info</h2></div>
+        <div class="Student details1">
+            <label for="student name">Name</label>
+            <input type="text" placeholder="name" class="det input1">
+        </div>
+        <div class="Student details2">
+            <label for="student name">email</label>
+            <input type="email" placeholder="email" class="det input2">
+        </div>
+        <div class="Student details3">
+            <label for="student name">D.O.B</label>
+            <input type="date" class="det input3">
+        </div>
+    </section>
+    <section role="region">
+        <div class="html questions"><h2>HTML</h2></div>
+        <hr>
+        <div class="quesno">Question #1</div>
+        <fieldset class="f1">
+        <p>The legend element represents a caption for the content of its parent fieldset element</p>
+    <div class="ques-options">
+       
+        <span class="true"><input type="radio" name="true" id="option1">True</span>
+        <span class="false"><input type="radio" name="false" id="option1">False</span>
+        </fieldset>
+       
+    </div>
+        <div class="quesno">Question #2</div>
+        <fieldset class="f1">
+        <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+    <div class="ques-options">
+        <span class="true"><input type="radio" name="true" id="option1">True</span>
+        <span class="false"><input type="radio" name="false" id="option1">False</span>
+    </fieldset>
+    </div>
+</section>
+<section>
+    <div class="css"><h2>CSS</h2></div>
+    <hr>
+    <div class="quesno">Are you a frontend developer?<br>
+    <select name="guess" aria-placeholder="Select an option" required>
+        <option >Select an option</option>
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+    </select>
+    </div><br><br>
+    <div class="css-questios">
+        <div class="css-option">Do you have any questions:</div>
+        <textarea name="feedback" id="feeds" cols="20" rows="5" placeholder="Who is flexbox..."></textarea>
+    </div>
+</section>
+    <button type="submit" class="finised">Submit</button>
+    <footer class="base">
+            <span><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/step-67">freeCodeCamp</a></span><br>
+            <span>San Francisco</span><br>
+            <span>California</span><br>
+            <span>USA</span><br>
+        </footer>
+    </main>
+    
+</body>
+</html>

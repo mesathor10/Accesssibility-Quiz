@@ -1,0 +1,124 @@
+@media ( prefers-reduced-motion: no-preference) {
+    *{
+        scroll-behavior: smooth;
+     }
+}
+body{
+    margin: 0;
+    background-color: burlywood;
+}
+hr{
+    height: 2px;
+}
+main{
+   padding-top: 50px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* top: 0; */
+}
+section{
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+    text-align: center;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+   
+}
+nav{
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    /* border-spacing: 10px; */
+}
+.ques-options{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding: 0.2rem;
+    display: block;
+    margin: 0 0.2rem;
+}
+h1{
+    padding-left: 20px;
+}
+
+  
+.Student{
+
+    padding: 10px 0 0 5px;
+}
+.Student label, .Student input{
+    display: inline-block;
+   
+}
+.Student label{
+    width: 10%;
+}
+.Student input{
+    width: 50%;
+    min-width: 55px;
+}
+.ques{
+    display: block;
+    overflow: hidden;
+    background-color: blue;
+}
+  
+.quesno{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+p{
+    margin-top: 5px;
+    padding-left: 15px;
+
+}
+/* p::before{
+    content: "";
+} */
+.f1{
+    border: none;
+    padding-left: 0; 
+}
+button{
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 23px;
+    background-color: cornflowerblue;
+    border: 3px solid rgb(54, 42, 42);
+}
+.css-question{
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: aquamarine;
+    width: 20px;
+}
